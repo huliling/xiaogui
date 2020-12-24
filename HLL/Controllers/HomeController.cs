@@ -13,10 +13,11 @@ namespace HLL.Controllers
         {
             return View();
         }
-
-        public ActionResult GetAll(int pageIndex=1,int pageSize=10)
+        public ActionResult aaa()
         {
-            return Json(StudentBLL.QueryAll(pageIndex,pageSize),JsonRequestBehavior.AllowGet);
+            return View();
         }
+
+     
     }
 }
