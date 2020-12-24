@@ -13,7 +13,7 @@ namespace HLL.Controllers
         {
             return View();
         }
-        public ActionResult aaa()
+        public ActionResult AAA()
         {
             return View();
         }
